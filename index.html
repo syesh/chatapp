@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <h1>Chatty</h1>
+
+    <div class="head_1">
+        <p>Message Here!</p>
+    </div>
+
+    <div class="form" >
+        <form onsubmit="mysubmit(); return false;">
+            <input type="text" id="nam" placeholder="Enter Name"><br><br>
+            <input type="text" id="mes"  placeholder="Enter message"><br><br>
+            <button id="sub">Send</button>
+        </form>
+    </div>
+
+    <div class="head_2">
+        <p>Chat</p>
+    </div>
+
+    <div id="chat">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
